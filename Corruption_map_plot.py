@@ -39,5 +39,5 @@ fig.update_traces(hovertemplate="<b>%{hovertext}</b><br>Corruptibility: %{z:.2f}
 fig.update_layout(margin=dict(l=10, r=10, t=50, b=10), geo=dict(showframe=False, showcoastlines=True))
 
 fig.show()
-fig.write_html("corruptibility_map.html", include_plotlyjs="cdn")
-print("Saved: corruptibility_map.html")
+fig.write_html("index.html", include_plotlyjs="cdn")
+print("Saved: index.html")
